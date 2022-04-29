@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #b11313;
+}
+
+#imagespiderman1 {
+    padding-top: 10rem;
+    background-image: url(Assets/Illustration/img1.png);
+    background-size: cover;
+    height: 745px;
+    background-position: center;
+}
+
+#partie1 {
+    background-color: #b11313;
+}
+
+#card1,
+#card2,
+#card3 {
+    width: 18rem;
+    background-color: #b11313;
+}
+
+#btn1,
+#btn2,
+#btn3 {
+    background-color: #ffff;
+    color: #b11313;
+    border-radius: 1.4rem;
+}
+
+@font-face {
+    font-family: Homecoming;
+    src: url(Assets/Far-From\ Homecoming\ Updated.otf);
+}
+
+H1 {
+    font-family: Homecoming;
+    color: #ffff;
+    font-size: 5rem;
+    padding-left: 5rem;
+    margin-top: 6rem;
+}
+
+h3,
+h4 {
+    font-family: Homecoming;
+}
+
+#partie2 {
+    background-image: url(assets/Illustration/img5.png);
+    background-repeat: no-repeat;
+    height: 555px;
+    background-color: #114c92;
+    overflow: hidden;
+}
+
+.text-white {
+    padding-top: 3rem
+}
+
+#inputtext5 {
+    color: rgb(0, 0, 0);
+    border-radius: 1rem;
+    height: 1.8rem;
+    width: 20rem;
+}
+
+#partie3 {
+    background-color: #b11313;
+    overflow: hidden;
+}
+
+#inputtext6 {
+    color: #ffff;
+    background-color: #b11313;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 20rem;
+}
+
+#newsletter {
+    padding-left: 5rem;
+    padding-top: 8rem;
+}
+
+#colonne {
+    margin-left: 5rem;
+}
+
+@media (min-width:768px) {
+    #colonne {
+        margin-left: 50rem;
+    }
+    #colonne2 {
+        margin-right: 10rem !important;
+    }
+    @media (max-width:768px) {
+        #colonne2 {
+            text-align: center;
+            margin-right: 200px;
+        }
+    }
+    .style {
+        padding-left: 5rem;
+    }
+}
+
+@media (max-width:768px) {
+    .card {
+        margin-left: 25%;
+    }
+}
+
+@media (max-width:768px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:768px) {
+    #imagespiderman1 {
+        height: 396px;
+        padding-left: 1rem;
+        padding-top: 3rem;
+    }
+}
+
+#btn-final {
+    color: #b11313;
+    border-radius: 1rem;
+    margin-left: 3rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+}
+
+#figure {
+    padding-left: 4rem;
+}
+
+#footer1,
+#footer2,
+#footer3 {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+#foot{
+    overflow: hidden;
+}
+
+#contact,
+#blog {
+    color: #ffff; 
+    text-decoration: none; 
+    font-size: 0.8rem;
+}
+
+#dropdownMenuLink{
+    background-color: #b11313; 
+    border-radius: 1.4rem;
+}
+
+#imgg1,
+#imgg2,
+#imgg3,
+#imgg4 {
+    border-radius: 1.4rem; 
+    margin: 1rem; 
+    background-color: #b11313;
+}
